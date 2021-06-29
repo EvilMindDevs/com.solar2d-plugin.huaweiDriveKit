@@ -1,0 +1,11 @@
+repositories {
+    maven {
+        url "https://developer.huawei.com/repo/"
+    }
+}
+
+dependencies {
+	implementation 'com.huawei.hms:drive:5.0.0.301'
+    implementation 'com.huawei.hms:hwid:5.2.0.300'
+}
+
